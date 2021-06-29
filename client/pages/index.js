@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Footer from '../components/footer';
 import Layout from "../components/layout";
 import style from "../styles/St.module.css";
+import Button from "../components/button/button";
 export default function Home() {
   return (
     <Layout 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
 
       <main className="mainSS">
+        <Button />
         <h1 >
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
