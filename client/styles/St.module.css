@@ -1,8 +1,82 @@
-.example{
+.example {
     color: brown;
     font-size: 25px;
 }
 
-.mainSS{
-   background-color: cornflowerblue;
+.mainSS {
+    background-color: cornflowerblue;
+}
+
+.ListSocLink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.ListSocLink li {
+    list-style-type: none;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding-right: 16px;
+}
+
+.ListSocLink li a {
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    width: 28px;
+}
+
+.ListSocLink li label {
+    background-repeat: no-repeat;
+    background-image: url(../public/color_social_icons.svg);
+    cursor: pointer;
+    display: block;
+    filter: grayscale(1);
+    height: 24px;
+    width: 28px;
+}
+
+.ListSocLink li label:hover {
+    filter: grayscale(0);
+}
+
+.social_grey_fb {
+    background-position-x: 2px;
+}
+
+.social_grey_twi {
+    background-position-x: -38px;
+}
+
+.social_grey_in {
+    background-position-x: -78px;
+}
+
+.social_grey_tube {
+    background-position-x: -118px;
+}
+
+.social_grey_blog {
+    background-position-x: -198px;
+}
+
+.social_grey_medium {
+    background-position-x: -238px;
+}
+
+.social_grey_instagram {
+    background-position-x: -278px;
+}
+
+.social_grey_github {
+    background-position-x: -318px;
+}
+
+.social_grey_fosstodon {
+    background-position-x: -395px;
 }
